@@ -1,0 +1,10 @@
+{{ $bgColor := .Site.Params.defaultBgColor | default "bg-pink-50"  }}
+{{ if isset .Site.Params "midsectionbgcolor" }}
+  {{ $bgColor = .Site.Params.midSectionBgColor }}
+{{ end }}
+<section class="{{ $bgColor }} dark:bg-gray-900">
+  <div class="container flex flex-col gap-x-10 max-w-screen-lg mx-auto px-6 py-12 items-center">
+    <h1 class="text-4xl font-bold mb-4 text-red-800">Midsection Content</h1>
+    <p class="font-light text-lg text-neutral-700">Think about what belongs here!</p>
+  </div>
+</section>

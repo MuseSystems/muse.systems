@@ -1,0 +1,49 @@
+{{ $bgColor := .Site.Params.defaultBgColor | default "bg-pink-50"  }}
+{{ if isset .Site.Params "footerbgcolor" }}
+  {{ $bgColor = .Site.Params.footerBgColor }}
+{{ end }}
+<footer class="{{ $bgColor }} dark:bg-gray-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-4 items-top">
+    <div class="h-full">
+      <div class="text-2xl text-neutral-900 font-bold mb-2">{{ .Site.Params.orgDbaName }}</div>
+      <p class="text-neutral-700">{{ .Site.Params.orgMotto }}</p>
+    </div>
+
+    <div class="flex flex-col gap-y-2">
+      <h3 class="text-md font-bold text-neutral-900">Mailing & Phone</h3>
+      <div class="text-sm text-neutral-700">{{ .Site.Params.orgAddress | markdownify }}</div>
+      <div class="text-sm text-neutral-700">{{ .Site.Params.orgPhone | markdownify }}</div>
+    </div>
+
+    <div class="flex flex-col gap-y-2 md:gap-y-4">
+      <div class="basis-1/3 flex flex-row gap-x-4">
+        <h3 class="text-lg font-bold text-neutral-900">Follow Us:</h3>
+        {{- partial "social.html" . -}}
+      </div>
+      <div class="basis-1/3 grow"></div>
+      <div class="basis-1/3 flex flex-col gap-y-2">
+        {{ range .Site.Params.footer.links }}
+        <a href="{{ .url }}"><p class="shrink text-sm opacity-50 hover:opacity-100 transition-opacity">{{ .title }}</p></a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 mb-10 mx-auto max-w-4xl flex justify-between items-center">
+    <span class="text-neutral-900 text-sm font-light">
+      {{ if (isset .Site.Params "copyright") }}
+      {{ .Site.Params.copyright | safeHTML }}
+      {{ else if (isset .Site.Params "orglegalname") }}
+      Copyright {{ dateFormat "2006" now }} © {{ .Site.Params.orgLegalName }}
+      {{ else }}
+      Copyright {{ dateFormat "2006" now }} © {{ .Site.Title }}
+      {{ end }}
+    </span>
+    <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M18 15l-6 -6l-6 6h12" />
+      </svg>
+    </span>
+  </div>
+</footer>

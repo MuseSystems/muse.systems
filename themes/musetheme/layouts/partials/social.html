@@ -1,0 +1,33 @@
+<ul class="flex justify-start gap-x-3 flex-wrap gap-y-2">
+  {{range .Site.Params.homepage.social.icons}}
+
+  {{ if eq .website "linkedin" }}
+  <li>
+    <a
+      href="{{ .url }}"
+      target="_blank"
+      rel="noopener"
+      aria-label="LinkedIn"
+      class="p-1 inline-block cursor-pointer opacity-40 hover:opacity-100 transition-opacity dark:text-gray-600 dark:hover:text-gray-300"
+    >
+      <img class="h-8" src="/img/social/linkedin/In-Black-34px-R.png" aria-hidden="true">
+    </a>
+  </li>
+  {{ end }}
+
+  {{ if eq .website "github" }}
+  <li>
+    <a
+      href="{{ .url }}"
+      target="_blank"
+      rel="noopener"
+      aria-label="GitHub"
+      class="p-1 inline-block cursor-pointer opacity-50 hover:opacity-100 transition-opacity dark:text-gray-600 dark:hover:text-gray-300"
+    >
+      <img class="h-8" src="/img/social/github/github-mark.svg" aria-hidden="true">
+    </a>
+  </li>
+  {{ end }}
+
+  {{end}}
+</ul>
