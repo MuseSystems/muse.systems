@@ -1,6 +1,6 @@
-baseurl = ""
+baseurl = "https://muse.systems"
 metaDataFormat = "toml"
-title = ""
+title = "Muse Systems"
 theme = "musetheme"
 
 DefaultContentLanguage = "en"
@@ -8,17 +8,21 @@ DefaultContentLanguageInSubdir = false
 
 [params]
 
-  introTitle = ""
-  introSubtitle = ""
-  introBgColor = "bg-pink-300"
-  introPhoto = ""
-  logo = ""
+  introTitle = "Inspired Solutions for Business"
+  introSubtitle = "Muse Systems is a San Francisco based business systems consultancy specializing in system implementation, design, and development.  Servicing clients in the distribution, manufacturing, and retail industries."
+  introBgColor = "bg-gray-300"
+  introPhoto = "/img/landing/experience.jpg"
+  logo = "/img/brand/musesystems-logo-optimized.svg"
 
-  orgDbaName = ""
-  orgLegalName = ""
-  orgMotto = ""
-  orgAddress = ""
-  orgPhone = ""
+  orgDbaName = "Muse Systems"
+  orgLegalName = "Lima Buttgereit Holdings LLC d/b/a Muse Systems"
+  orgMotto = "Inspired Solutions for Business"
+  orgAddress = """\
+    18 Dorado Terrace, Unit. 8
+    San Fransisco, CA 94112
+    USA
+    """
+  orgPhone = "415.404.9502"
 
   # Enable the darkmode toggle in header
   darkModeToggle = false
@@ -35,14 +39,14 @@ DefaultContentLanguageInSubdir = false
     "date",
     "categories",
     "summary",
-    "content",
+    # "content",
     "link",
     "author"
   ]
 
   # Custom copyright - optional
   # copyright = "Copyright © 2023 Lima Buttgereit Holdings LLC d/b/a Muse Systems"
-  favicon = ""
+  favicon = "/img/brand/favicon.svg"
 
 
   # The page bundle that contains service details.  Leave unset to omit section.
@@ -56,8 +60,8 @@ DefaultContentLanguageInSubdir = false
   showBlogToc = true
 
   showMidSection = false
-  midSectionBgColor = "bg-pink-300"
-  footerBgColor = "bg-pink-300"
+  midSectionBgColor = "bg-gray-300"
+  footerBgColor = "bg-gray-300"
 
   # Default metadata visibility if page Type is unknown. Omission defaults to true.
   showMeta = true
@@ -65,7 +69,7 @@ DefaultContentLanguageInSubdir = false
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  defaultBgColor = "bg-pink-300"
+  defaultBgColor = "bg-gray-300"
 
 
   # To hide "Other languages" option if the post is available in multiple languages
@@ -105,19 +109,28 @@ DefaultContentLanguageInSubdir = false
   # theme = ""
 
 
-# [[params.homepage.social.icons]]
-#   website = "github"
-#   url = "https://github.com/MuseSystems"
+[[params.homepage.social.icons]]
+  website = "github"
+  url = "https://github.com/MuseSystems"
 
-# [[params.footer.links]]
-#   title = "Acknowledgements"
-#   url = "/acknowledgements"
+[[params.homepage.social.icons]]
+  website = "linkedin"
+  url = "https://www.linkedin.com/company/muse-systems/"
+
+[[params.footer.links]]
+  title = "Acknowledgements"
+  url = "/acknowledgements"
   weight = 10
 
 
-# [[menu.main]]
-#   name = "About"
-#   url = "/about"
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[[menu.main]]
+  name = "Tags"
+  url = "tags"
+  weight = 1
 
 [build]
   writeStats = true
