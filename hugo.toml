@@ -12,6 +12,7 @@ DefaultContentLanguageInSubdir = false
   introSubtitle = "Muse Systems is a San Francisco based business systems consultancy specializing in system implementation, design, and development.  Servicing clients in the distribution, manufacturing, and retail industries."
   introBgColor = "bg-gray-300"
   introPhoto = "/img/landing/experience.jpg"
+
   logo = "/img/brand/musesystems-logo-optimized.svg"
 
   orgDbaName = "Muse Systems"
