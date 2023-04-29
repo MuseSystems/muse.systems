@@ -7,10 +7,8 @@
   "author": "Steven C. Buttgereit",
   "license": "Apache v2.0",
   "scripts": {
-    "dev:css": "npx tailwindcss -i ./assets/css/main.css -o ./static/css/style.css -w",
     "dev:hugo": "hugo server --disableFastRender",
     "dev": "run-p dev:*",
-    "build:css": "NODE_ENV=production npx tailwindcss -i ./assets/css/main.css -o ./static/css/style.css -m",
     "build:hugo": "hugo",
     "build": "run-s build:*"
   },
