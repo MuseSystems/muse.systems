@@ -20,4 +20,5 @@ Please note that many of the images used in this website have been modified by u
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
 {{< figure src="/img/404image.webp" height="200" width="200" attr="Evan Buchholz on Unsplash" attrlink="https://unsplash.com/es/@vnbuchholz92?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="border-2 border-neutral-300 p-4" >}}
+{{< figure src="/img/landing/experience.webp" height="200" width="200" attr="Bethany Legg on Unsplash" attrlink="https://unsplash.com/@bkotynski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="border-2 border-neutral-300 p-4" >}}
 </div>
