@@ -145,6 +145,7 @@ DefaultContentLanguageInSubdir = false
     style = "dracula"
   [markup.goldmark.renderer]
     # Enable to include inline HTML
+    hardWraps = true
     unsafe = true
 
 [frontmatter]
