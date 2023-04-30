@@ -6,9 +6,11 @@ module.exports = {
     content: [
       themeDir + "layouts/**/*.html",
       themeDir + "content/**/*.html",
+      themeDir + "content/**/*.md",
       "layouts/**/*.html",
       "hugo.toml",
       "content/**/*.html",
+      "content/**/*.md",
       "assets/js/search.js"
     ],
   },
