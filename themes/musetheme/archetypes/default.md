@@ -1,4 +1,4 @@
----
++++
 author = ""
 title = "{{ replace .Name "-" " " | title }}"
 date = "{{ .Date }}"
@@ -8,5 +8,5 @@ keywords = []
 tags = []
 type = "page"
 thumbnail = "/img/nothing.jpg"
-weight: 10
----
+weight = 10
++++
