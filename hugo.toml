@@ -9,7 +9,7 @@ DefaultContentLanguageInSubdir = false
 [params]
 
   introTitle = "Inspired Solutions for Business"
-  introSubtitle = "Muse Systems is a San Francisco based business systems consultancy specializing in system implementation, design, and development.  Servicing clients in the distribution, manufacturing, and retail industries."
+  introSubtitle = "Muse Systems is a San Francisco based business systems consultancy experienced in implementation management, design, and development.  Serving clients in the distribution, manufacturing, and retail industries."
   introBgColor = "bg-gray-300"
   introPhoto = "/img/landing/experience.webp"
 
