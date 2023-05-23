@@ -5,7 +5,7 @@
 <section class="{{ $bgColor }} dark:bg-gray-900">
   <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-2 gap-4 lg:gap-16 items-center">
     <div>
-      <h1 class="text-4xl font-bold mb-4 text-red-800">{{ .Site.Params.introTitle | safeHTML}}</h1>
+      <h1 class="text-4xl font-bold mb-4 text-red-600">{{ .Site.Params.introTitle | safeHTML}}</h1>
       <p class="font-light text-lg text-neutral-700">{{ .Site.Params.introSubtitle | safeHTML}}</p>
     </div>
     <img class="rounded-xl shadow-xl" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
