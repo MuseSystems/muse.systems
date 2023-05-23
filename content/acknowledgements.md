@@ -13,6 +13,8 @@ Much of the the Muse Systems website was built using software and content under 
 
 * [Blist](https://github.com/apvarun/blist-hugo-theme) Hugo theme. Licensed under the MIT License by [Varun A P](https://github.com/apvarun).  Note that we have made significant modifications to this theme and therefore our website isn't necessarily representative of the original Blist theme.
 
+* [Netlify](https://netlify.com) website hosting platform.
+
 
 ## Photographs, Graphics, and Images
 
