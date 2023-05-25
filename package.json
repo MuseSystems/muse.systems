@@ -7,7 +7,7 @@
   "author": "Steven C. Buttgereit",
   "license": "Apache v2.0",
   "scripts": {
-    "dev:hugo": "hugo server --disableFastRender",
+    "dev:hugo": "hugo server --disableFastRender -D",
     "dev": "run-p dev:*",
     "build:hugo": "hugo",
     "build": "run-s build:*"
