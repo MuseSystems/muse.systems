@@ -28,6 +28,12 @@ Please note that many of the images used in this website have been modified by u
 				<p class="text-sm">Evan Buchholz on Unsplash</p>
 			</a>
 		</div>
+		<div class="border-2 border-neutral-300 p-4">
+			<a href="https://unsplash.com/@victoriano?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="not-prose flex flex-col gap-2">
+				<img src="/img/services/implementation/choices.webp" alt="Choices Image" />
+				<p class="text-sm">Victoriano Izquierdo on Unsplash</p>
+			</a>
+		</div>
 	</div>
 	<div class="max-w-xs flex flex-col gap-2">
 		<div class="border-2 border-neutral-300 p-4">
@@ -38,8 +44,14 @@ Please note that many of the images used in this website have been modified by u
 		</div>
 		<div class="border-2 border-neutral-300 p-4">
 			<a href="https://www.flickr.com/photos/mwichary/2221971367/in/photolist-4ombFa-4Z8bzA-4FnfeK-4ky2fG-4uZhKt-NmY6ek-7BLGDE-4kxZ3Y-5X7SpV-4heHfk-5C3GUH-5C7V5m" target="_blank" class="not-prose flex flex-col gap-2">
-				<img src="/img/services/development/svc-app-dev-cover.webp" alt="" />
+				<img src="/img/services/development/svc-app-dev-cover.webp" alt="Code Image" />
 				<p class="text-sm">Marcin Wichary / CC BY 2.0</p>
+			</a>
+		</div>
+		<div class="border-2 border-neutral-300 p-4">
+			<a href="https://unsplash.com/@lureofadventure?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="not-prose flex flex-col gap-2">
+				<img src="/img/services/implementation/navigation.webp" alt="Navigation Image" />
+				<p class="text-sm">Ali Kazal on Unsplash</p>
 			</a>
 		</div>
 	</div>
@@ -52,9 +64,17 @@ Please note that many of the images used in this website have been modified by u
 		</div>
 		<div class="border-2 border-neutral-300 p-4">
 			<a href="https://www.flickr.com/photos/mwichary/3250009028/in/photolist-4AeAgt-5Xc9sq-5X7UfZ-5X7Tyr-5X7TRV" target="_blank" class="not-prose flex flex-col gap-2">
-				<img src="/img/services/design/svc-bus-sys-design-cover.webp" alt="" />
+				<img src="/img/services/design/svc-bus-sys-design-cover.webp" alt="Design Image" />
 				<p class="text-sm">Marcin Wichary / CC BY 2.0</p>
+			</a>
+		</div>
+		<div class="border-2 border-neutral-300 p-4">
+			<a href="https://unsplash.com/@mahdigp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="not-prose flex flex-col gap-2">
+				<img src="/img/services/implementation/arrival.webp" alt="Arrival Image" />
+				<p class="text-sm">Mahdi Dastmard on Unsplash</p>
 			</a>
 		</div>
 	</div>
 </div>
+
+Many of our images were sourced from <a href="https://unsplash.com" target="_blank">Unsplash</a> and we're appreciative that such a service exists.  Unsplash images licensed under the <a href="https://unsplash.com/license" target="_blank">Unsplash License</a>.
