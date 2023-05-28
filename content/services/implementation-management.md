@@ -40,7 +40,7 @@ Not all clients and not all system purchases require all of the processes listed
 
 ## Implementation Project Planning & Management
 
-<div class="not-prose w-full md:w-72 float-right my-2 me-4 mb-2 ">
+<div class="not-prose w-full md:w-72 float-right my-2 me-4 ms-2 mb-2 ">
 	<img class="mx-auto rounded-xl shadow-xl" src="/img/services/implementation/navigation.webp" alt="Navigation" aria-hidden="true"/>
 </div>
 
