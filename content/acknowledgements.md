@@ -34,6 +34,12 @@ Please note that many of the images used in this website have been modified by u
 				<p class="text-sm">Victoriano Izquierdo on Unsplash</p>
 			</a>
 		</div>
+		<div class="border-2 border-neutral-300 p-4">
+			<a href="https://unsplash.com/@ryanancill?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="not-prose flex flex-col gap-2">
+				<img src="/img/services/design/functional-design.webp" alt="Functional Design Image" />
+				<p class="text-sm">Ryan Ancill on Unsplash</p>
+			</a>
+		</div>
 	</div>
 	<div class="max-w-xs flex flex-col gap-2">
 		<div class="border-2 border-neutral-300 p-4">
@@ -54,6 +60,12 @@ Please note that many of the images used in this website have been modified by u
 				<p class="text-sm">Ali Kazal on Unsplash</p>
 			</a>
 		</div>
+		<div class="border-2 border-neutral-300 p-4">
+			<a href="https://flic.kr/p/4obSbY" target="_blank" class="not-prose flex flex-col gap-2">
+				<img src="/img/services/design/interfaces.webp" alt="User Interface Image" />
+				<p class="text-sm">Marcin Wichary / CC BY 2.0</p>
+			</a>
+		</div>
 	</div>
 	<div class="max-w-xs flex flex-col gap-2">
 		<div class="border-2 border-neutral-300 p-4">
@@ -72,6 +84,12 @@ Please note that many of the images used in this website have been modified by u
 			<a href="https://unsplash.com/@mahdigp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="not-prose flex flex-col gap-2">
 				<img src="/img/services/implementation/arrival.webp" alt="Arrival Image" />
 				<p class="text-sm">Mahdi Dastmard on Unsplash</p>
+			</a>
+		</div>
+		<div class="border-2 border-neutral-300 p-4">
+			<a href="https://unsplash.com/@vnwayne?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="not-prose flex flex-col gap-2">
+				<img src="/img/services/design/documentation.webp" alt="Documentation Image" />
+				<p class="text-sm">vnwayne fan on Unsplash</p>
 			</a>
 		</div>
 	</div>
