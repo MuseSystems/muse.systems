@@ -36,7 +36,7 @@ Please note that many of the images used in this website have been modified by u
 		</div>
 		<div class="border-2 border-neutral-300 p-4">
 			<a href="https://unsplash.com/@ryanancill?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="not-prose flex flex-col gap-2">
-				<img src="/img/services/design/functional-design.webp" alt="Functional Design Image" />
+				<img src="/img/services/design/functional-design.webp" alt="Ideas Image" />
 				<p class="text-sm">Ryan Ancill on Unsplash</p>
 			</a>
 		</div>

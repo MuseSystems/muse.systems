@@ -18,7 +18,7 @@ Muse Systems has substantial experience in working with clients to design new bu
 ## Functional Requirements Development
 
 <div class="not-prose w-full md:w-72 float-left my-2 me-4 mb-2 ">
-	<img class="mx-auto rounded-xl shadow-xl" src="/img/services/design/functional-designb.webp" alt="Idea" aria-hidden="true"/>
+	<img class="mx-auto rounded-xl shadow-xl" src="/img/services/design/functional-design.webp" alt="Ideas" aria-hidden="true"/>
 </div>
 
 Ideas come easy, execution is hard.  Coming up with an idea to improve your business, to meet a requirement, or to solve a problem is only the first step towards accomplishing the goal... ...and it may be the easiest step.  The real work begins when you translate those formative ideas into actionable, detailed plans.
