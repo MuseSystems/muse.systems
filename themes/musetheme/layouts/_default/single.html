@@ -4,6 +4,7 @@
 
   {{ $showMeta := false }}
   {{ $showToc := false }}
+  {{ $showPager := false }}
 
   {{ if eq .Page.Type "blog"  }}
 
@@ -21,6 +22,14 @@
       {{ $showToc = .Site.Params.showBlogToc }}
     {{ else }}
       {{ $showToc = or .Site.Params.showToc (not (isset .Site.Params "showtoc")) }}
+    {{ end }}
+
+    {{ if (isset .Params "showblogpager") }}
+      {{ $showPager = .Params.showBlogPager }}
+    {{ else if (isset .Site.Params "showblogpager") }}
+      {{ $showPager = .Site.Params.showBlogPager }}
+    {{ else }}
+      {{ $showPager = or .Site.Params.showPager (not (isset .Site.Params "showblogpager")) }}
     {{ end }}
 
   {{ else if eq .Page.Type "services"  }}
@@ -41,6 +50,14 @@
       {{ $showToc = or .Site.Params.showToc (not (isset .Site.Params "showtoc")) }}
     {{ end }}
 
+    {{ if (isset .Params "showservicepager") }}
+      {{ $showPager = .Params.showServicePager }}
+    {{ else if (isset .Site.Params "showservicepager") }}
+      {{ $showPager = .Site.Params.showServicePager }}
+    {{ else }}
+      {{ $showPager = or .Site.Params.showPager (not (isset .Site.Params "showservicepager")) }}
+    {{ end }}
+
   {{ else }}
 
     {{ $showMeta := or .Site.Params.showMeta (not isset .Site.Params "showmeta") }}
@@ -59,7 +76,18 @@
   </div>
   {{ end }}
 
+  {{ if $showPager }}
+  {{ end }}
   <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+    <nav class="flex flex-row text-xs">
+      {{ with .NextInSection }}
+      <p class="text-neutral-900 opacity-60 hover:opacity-100 transition-opacity"><span class="font-semibold"> < </span> <a href="{{ .Permalink }}" class="no-underline hover:underline">{{ .Title }}</a></p>
+      {{ end }}
+      <div class="grow"></div>
+      {{ with .PrevInSection }}
+      <p class="text-neutral-900 opacity-60 hover:opacity-100 transition-opacity"><a href="{{ .Permalink }}" class="no-underline hover:underline">{{ .Title }}</a><span class="font-semibold"> > </span></p>
+      {{ end }}
+    </nav>
 
     <h1 class="text-2xl font-bold mb-2">{{ .Title }}</h1>
     {{ if $showMeta }}
@@ -142,6 +170,8 @@
 
     {{ .Content }}
   </article>
+
+
 
   {{- partial "comments.html" . -}}
 

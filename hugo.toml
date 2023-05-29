@@ -54,11 +54,15 @@ DefaultContentLanguageInSubdir = false
   serviceBundle = "services"
   showServiceMeta = false
   showServiceToc = false
+  showServicePager = true
+
 
   # The page bundle that contains the site's blog.  Leave unset to omit section.
   blogBundle = "blog"
   showBlogMeta = true
   showBlogToc = true
+  showBlogPager = true
+
 
   showMidSection = false
   midSectionBgColor = "bg-gray-300"
