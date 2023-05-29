@@ -134,11 +134,17 @@ DefaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "About"
   url = "/about"
+  weight = 10
+
+# [[menu.main]]
+#   name = "Tags"
+#   url = "tags"
+#   weight = 10
 
 [[menu.main]]
-  name = "Tags"
-  url = "tags"
-  weight = 1
+  name = "Contact Us"
+  url = "/contact"
+  weight = 30
 
 [build]
   writeStats = true
