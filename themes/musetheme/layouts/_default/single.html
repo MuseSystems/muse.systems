@@ -2,9 +2,9 @@
   {{ $lastmodstr := (partial "date.html" (dict "date" .Lastmod "language" $.Page.Language "format" "long")) }}
   {{ $datestr := (partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long")) }}
 
-  {{ $showMeta := false }}
-  {{ $showToc := false }}
-  {{ $showPager := false }}
+  {{ $showMeta := or false .Site.Params.showMeta }}
+  {{ $showToc := or false .Site.Params.showToc }}
+  {{ $showPager := or false .Site.Params.showPager }}
 
   {{ if eq .Page.Type "blog"  }}
 
@@ -59,10 +59,9 @@
     {{ end }}
 
   {{ else }}
-
-    {{ $showMeta := or .Site.Params.showMeta (not isset .Site.Params "showmeta") }}
-    {{ $showToc := or .Site.Params.showToc (not isset .Site.Params "showtoc") }}
-
+    {{ $showMeta = or $showMeta .Params.showMeta }}
+    {{ $showToc = or $showToc .Params.showToc }}
+    {{ $showPager = or $showPager .Params.showPager }}
   {{ end }}
 
   {{ if (and .Params.thumbnail (not (or .Site.Params.hidePageThumbnail .Params.hidePageThumbnail)) ) }}
@@ -76,9 +75,8 @@
   </div>
   {{ end }}
 
-  {{ if $showPager }}
-  {{ end }}
   <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
+  {{ if $showPager }}
     <nav class="flex flex-row text-xs">
       {{ with .NextInSection }}
       <p class="text-neutral-900 opacity-60 hover:opacity-100 transition-opacity"><span class="font-semibold"> < </span> <a href="{{ .Permalink }}" class="no-underline hover:underline">{{ .Title }}</a></p>
@@ -88,6 +86,7 @@
       <p class="text-neutral-900 opacity-60 hover:opacity-100 transition-opacity"><a href="{{ .Permalink }}" class="no-underline hover:underline">{{ .Title }}</a><span class="font-semibold"> > </span></p>
       {{ end }}
     </nav>
+  {{ end }}
 
     <h1 class="text-2xl font-bold mb-2">{{ .Title }}</h1>
     {{ if $showMeta }}

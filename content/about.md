@@ -3,6 +3,8 @@ title = "About Us"
 date = "2023-04-29T11:59:25-07:00"
 draft = false
 showToc = false
+showMeta = false
+showPager = false
 +++
 
 Muse Systems is a small business systems implementation and software development consultancy based in San Francisco, CA; USA.  It was founded as a vehicle for the consulting efforts of Steven C. Buttgereit.  We do occasionally work with others under our name and agreements, but largely Steven does the work.
