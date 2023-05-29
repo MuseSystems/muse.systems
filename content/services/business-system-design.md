@@ -41,7 +41,7 @@ An example of our functional requirements development work:
 
 ## User Experience & Iterative Refinement
 
-<div class="not-prose w-full md:w-72 float-right my-2 me-4 ms-2 mb-2 ">
+<div class="not-prose w-full md:w-72 float-right my-2 md:me-4 ms-2 mb-2 ">
 	<img class="mx-auto rounded-xl shadow-xl" src="/img/services/design/interfaces.webp" alt="User Interface" aria-hidden="true"/>
 </div>
 
