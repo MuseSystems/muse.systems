@@ -2,7 +2,7 @@
 title = "Acknowledgements"
 date = "2023-04-29T11:59:25-07:00"
 draft = false
-showToc = true
+showToc = false
 +++
 
 Much of the the Muse Systems website was built using software and content under license from third parties, often times without payment.  In thanks we'd like to acknowledge those parties on whom we're most directly relying upon.
