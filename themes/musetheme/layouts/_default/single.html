@@ -87,8 +87,9 @@
       {{ end }}
     </nav>
   {{ end }}
-
+    {{ if not .Params.suppressTitle }}
     <h1 class="text-2xl font-bold mb-2">{{ .Title }}</h1>
+    {{ end }}
     {{ if $showMeta }}
     <h5 class="text-sm flex flex-col items-start flex-wrap">
 
