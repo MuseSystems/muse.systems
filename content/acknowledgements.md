@@ -46,6 +46,12 @@ Please note that many of the images used in this website have been modified by u
 				<p class="text-sm">Nick Hillier on Unsplash</p>
 			</a>
 		</div>
+		<div class="border-2 border-neutral-300 p-4">
+			<a href="https://www.linkedin.com/in/limashirley" target="_blank" class="not-prose flex flex-col gap-2">
+				<img src="/img/about/scb_portrait_500_lossy.webp" alt="Steven C. Buttgereit" />
+				<p class="text-sm">Shirley Lima / Copyright Muse Systems</p>
+			</a>
+		</div>
 	</div>
 	<div class="max-w-xs flex flex-col gap-2">
 		<div class="border-2 border-neutral-300 p-4">
