@@ -6,6 +6,8 @@ theme = "musetheme"
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = false
 
+googleAnalytics = 'G-ZSBK9DM0C3'
+
 [params]
 
   introTitle = "Inspired Solutions for Business"
