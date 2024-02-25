@@ -2,7 +2,7 @@
 author = "Steven C. Buttgereit"
 title = "Preserving Database Timestamp Resolution in Apache NiFi"
 date = "2024-02-25T00:00:00-08:00"
-draft = true
+draft = false
 description ="A method for avoiding timestamp data loss when transferring database data using Apache NiFi."
 keywords = []
 tags = []
